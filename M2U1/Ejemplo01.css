@@ -1,0 +1,43 @@
+/*
+font-family: 'Koulen', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+h2{
+    color: red;
+    font-family:'Koulen', cursive;
+    font-size: 150px;
+    margin: 0;
+
+}
+
+.caja{
+    width: 600px;
+    height: 300px;
+    
+    margin: 100px;
+    background: #0056ff;
+background: linear-gradient(0deg,#0056ff 0%, #00e0ff 50%);
+background: -webkit-linear-gradient(0deg,#0056ff 0%, #00e0ff 50%);
+background: -moz-linear-gradient(0deg,#0056ff 0%, #00e0ff 50%);
+padding: 20px;
+box-sizing: border-box;
+border-radius: 20px 0 20px 50px;
+box-shadow: 10px 10px 5px black; /*en el sentido de las agujas del reloj*/
+/*eje x - eje y - desenfoque - color*/
+border: 1px solid white;
+column-count: 3;
+column-gap: 50px;
+column-rule: 1px solid red;
+}
+
+.caja p{
+    margin: 0;
+}
+
+.grande{
+    color: green;
+ font-size: 5px;
+}
+
+
