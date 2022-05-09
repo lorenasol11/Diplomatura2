@@ -13,6 +13,9 @@
     width: 200px;
     height: 200px;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item2 {
@@ -20,6 +23,9 @@
     width: 200px;
     height: 200px;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item3 {
@@ -27,4 +33,7 @@
     width: 200px;
     height: 200px;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
