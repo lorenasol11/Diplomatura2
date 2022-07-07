@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cajared" onclick="cambiarFondo('red')">Click aqui para cambiar a fondo rojo</div>
+        <div class="cajayellow" onclick="cambiarFondo('yellow')">Click aqui para cambiar a fondo amarillo</div>
+        <div class="cajagreen" onclick="cambiarFondo('green')">Click aqui para cambiar a fondo verde</div>
+
+    </div>
+</body>
+
+<script>
+    function cambiarFondo(color) {
+        document.querySelector('body').style.backround = color;
+
+    }
+</script>
+
+</html>
